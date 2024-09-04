@@ -425,7 +425,7 @@ def get_keypoints_to_neural_varexp(
     itest : 1D array
         indices of test data
     """
-    x = input_data
+    x = input_data # the description might be wrong, is likely in the shape of (time points, features)
     y = target_neural_data
 
     # Initialize model for keypoints to neural prediction
